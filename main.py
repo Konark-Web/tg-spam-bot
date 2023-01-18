@@ -2,13 +2,10 @@ import string
 import joblib
 
 import nltk
-from aiogram.types import ContentTypes
-
 nltk.download('stopwords')
 from nltk.corpus import stopwords
 
 import pandas as pd
-import numpy as np
 
 from aiogram import Bot, types
 from aiogram.dispatcher import Dispatcher
