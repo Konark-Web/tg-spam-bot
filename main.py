@@ -33,7 +33,6 @@ async def process_start_command(message: types.Message):
                         "Only add this bot to your chat and get rid of spam messages.")
 
 
-
 @dp.message_handler(commands=['train_model'])
 async def train_model(message: types.Message):
     sms_data = pd.read_csv(
